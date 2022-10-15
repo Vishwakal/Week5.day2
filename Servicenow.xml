@@ -8,6 +8,8 @@
     <classes>
       <class name="testNG.OrderingMobile"/>
       <class name="testNG.Newproposal"/>
+      <class name ="testNG.Newcaller"/>
+      <class name="testNG.Newarticle"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
