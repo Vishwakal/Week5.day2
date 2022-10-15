@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <parameter name="url" value="https://dev139485.service-now.com/navpage.do"></parameter>
+	<parameter name="username" value="admin"></parameter>
+	<parameter name="password" value="paviKutty@11297"></parameter>
+  <test thread-count="5" name="Test" verbose="5">
+    <classes>
+      <class name="testNG.OrderingMobile"/>
+      <class name="testNG.Newproposal"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
